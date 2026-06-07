@@ -83,29 +83,29 @@ locust -f locustfile.py --host=http://52.220.47.3 --headless -u 10 -r 2 -t 60s -
 
 The load testing suite includes the following test scenarios:
 
-### ✅ Authentication (সম্পূর্ণ)
-1. **Login** - phone + PIN দিয়ে লগইন
+### ✅ Authentication (Complete)
+1. **Login** - Login with phone + PIN
 2. **Bearer Token** - Bearer token handling
 3. **X-API-Token** - API key handling
 
-### ✅ Supplier Orders (মূল features)
-1. **List Orders** - সব অর্ডার দেখা
-2. **Order Details** - নির্দিষ্ট অর্ডারের ডিটেইলস
+### ✅ Supplier Orders (Main features)
+1. **List Orders** - All orders list
+2. **Order Details** - Specific order details
 
-### ✅ Supplier Requests (মূল features)
-1. **List Requests** - সব রিকোয়েস্ট দেখা
-2. **Request Details** - নির্দিষ্ট রিকোয়েস্টের ডিটেইলস
+### ✅ Supplier Requests (Main features)
+1. **List Requests** - All request list
+2. **Request Details** - Specific request details
 
-### ✅ Inventory (সম্পূর্ণ CRUD)
-1. **List** - সব inventory আইটেম
-2. **Create** - নতুন আইটেম যোগ
-3. **Update** - বিদ্যমান আইটেম আপডেট
-4. **Detail** - নির্দিষ্ট আইটেমের তথ্য
-5. **Delete** - আইটেম মুছে ফেলা
+### ✅ Inventory (Completly CRUD)
+1. **List** - All inventory item
+2. **Create** - Add new inventory item
+3. **Update** - Update existing inventory item
+4. **Detail** - Specific inventory details
+5. **Delete** - Delete specific inventory item
 
-### ✅ Dashboard (মূল features)
-1. **Main Dashboard** - ড্যাশবোর্ড ডেটা
-2. **Top Companies** - শীর্ষ কোম্পানি তালিকা
+### ✅ Dashboard (Main features)
+1. **Main Dashboard** - Dashboard data
+2. **Top Companies** - Top company list
 
 ## Configuration
 
